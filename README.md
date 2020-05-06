@@ -2,12 +2,20 @@
 temp= 31 *C 	<br />
 75 %Humidity
 
-## Where to clone
-Since the project is still in it's beta stages, all the libraries are not included in this repository, and <br />
-the program depends on libraries included already in ESP IDF components folder. <br />
-Hence it is strongly recommended that you clone this as follows: <br />
+
+## Prerequisite: 
 ```
-cd ~/esp/esp-idf/examples/protocols/http_server 
+It is a must that you have ESP-IDF installed and running on your computer.
+For installation instructions follow 
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-1-install-prerequisites
+and the steps that follow.
+```
+**Avoid source compilation as it may cause errors** <br />
+
+## How to clone
+```
+sudo apt update && sudo apt upgrade
+sudo apt install git
 git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11 
 ```
 ## How to build and flash
