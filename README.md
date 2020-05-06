@@ -15,11 +15,16 @@ git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11
  cd ~/esp/esp-idf/examples/protocols/http_server/ESP32_wifiDHT11	
  idf.py fullclean	
  idf.py build	
--- this is an optional step wherein you may require USB serial permissions to flash into your esp:	
+ ```
+-- this is an optional step wherein you may require USB serial permissions to flash into your esp:	<br />	
+ ```
  sudo chmod 777 /dev/ttyUSB0   
-The USB0 part may vary in your case so hitting tab will help you there.	
+```
+The USB0 part may vary in your case so hitting tab will help you there.	<br />
+``` 
  idf.py flash monitor
 ```
+<br />
 ## How to get the output
 Once the ESP enter monitor mode, it should reach a stage where it will give you connected to WIFI 	<br />
 and it will show its IP.	<br />
