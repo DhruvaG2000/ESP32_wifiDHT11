@@ -33,12 +33,19 @@ The USB0 part may vary in your case so hitting tab will help you there.	<br />
  idf.py flash monitor
 ```
 <br />
+
+## Circuit Diagram
+| ESP32         | DHT11         |
+| ------------- | ------------- |
+| 3V3           | VCC           |
+| pin 27        | data          |
+| ground        | gnd           |
+
 ## How to get the output
 Once the ESP enter monitor mode, it should reach a stage where it will give you connected to WIFI 	<br />
 and it will show its IP.	<br />
 the next step is simply go to any browser (firefox, Chrome) and paste in the following format	<br />
-> IP_ADDRESS/show
-<br />
 ```
-Eg: http://192.168.0.102/show  
+ IP_ADDRESS/show
+ Eg: http://192.168.0.102/show  
 ```
