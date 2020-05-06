@@ -21,7 +21,12 @@ git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11
 ## How to build and flash
 ```
  cd ~/esp/esp-idf/examples/protocols/http_server/ESP32_wifiDHT11	
- idf.py fullclean	
+ idf.py fullclean
+ idf.py menuconfig
+```
+In menuconfig go to example configuration and press enter.
+In the next screen enter you WIFI SSD and Password.
+```	
  idf.py build	
  ```
 -- this is an optional step wherein you may require USB serial permissions to flash into your esp:	<br />	
