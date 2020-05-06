@@ -6,8 +6,8 @@ temp= 31 *C 	<br />
 Since the project is still in it's beta stages, all the libraries are not included in this repository, and <br />
 the program depends on libraries included already in ESP IDF components folder. <br />
 Hence it is strongly recommended that you clone this as follows: <br />
-cd ~/esp/esp-idf/examples/protocols/http_server <br />
 ```
+cd ~/esp/esp-idf/examples/protocols/http_server 
 git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11 
 ```
 ## How to build and flash
