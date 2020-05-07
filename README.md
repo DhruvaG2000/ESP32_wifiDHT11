@@ -4,15 +4,15 @@ temp= 31 *C 	<br />
 
 
 ## Prerequisite: 
-```
-It is a must that you have ESP-IDF installed and running on your computer.
-For installation instructions follow 
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-1-install-prerequisites
-and the steps that follow.
-```
+
+It is a must that you have ESP-IDF installed and running on your computer. <br />
+For installation instructions follow  <br />
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-1-install-prerequisites  <br />
+and the steps that follow.  <br />
+
 **Avoid source compilation as it may cause errors** <br />
 
-## How to clone
+## install git and clone
 ```
 sudo apt update && sudo apt upgrade
 sudo apt install git
@@ -20,7 +20,7 @@ git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11
 ```
 ## How to build and flash
 ```
- cd ~/esp/esp-idf/examples/protocols/http_server/ESP32_wifiDHT11	
+ cd ~/(your path where you cloned this repo)/ESP32_wifiDHT11	
  idf.py fullclean
  idf.py menuconfig
 ```
