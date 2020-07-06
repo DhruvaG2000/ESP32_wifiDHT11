@@ -5,7 +5,7 @@ temp= 31 *C 	<br />
 
 ## Prerequisite: 
 
-`pip install esptool`
+`pip install esptool` <br />
 It is a must that you have ESP-IDF installed and running on your computer. <br />
 For installation instructions follow  <br />
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-1-install-prerequisites  <br />
