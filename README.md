@@ -16,33 +16,6 @@ and the steps that follow.  <br />
 ## NOTE 
 This is the pre compiled branch and you can simply directly flash your ESP32 using ` esptool.py --port /dev/ttyUSB0 write_flash 0x1000 build/simple.bin ` on linux, and on windows just replace the `/dev/ttyUSB0` part with your COM port.
 
-## install git and clone
-```
-sudo apt update && sudo apt upgrade
-sudo apt install git
-git clone https://github.com/DhruvaG2000/ESP32_wifiDHT11 
-```
-## How to build and flash
-```
- cd ~/(your path where you cloned this repo)/ESP32_wifiDHT11	
- idf.py fullclean
- idf.py menuconfig
-```
-In menuconfig go to example configuration and press enter.
-In the next screen enter you WIFI SSD and Password.
-```	
- idf.py build	
- ```
--- this is an optional step wherein you may require USB serial permissions to flash into your esp:	<br />	
- ```
- sudo chmod 777 /dev/ttyUSB0   
-```
-The USB0 part may vary in your case so hitting tab will help you there.	<br />
-``` 
- idf.py flash monitor
-```
-<br />
-
 ## Circuit Diagram
 | ESP32         | DHT11         |
 | ------------- | ------------- |
