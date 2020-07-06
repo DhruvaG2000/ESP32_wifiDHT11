@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DSDKCONFIG=/home/dhruva/ESP32_wifiDHT11/sdkconfig;-DIDF_PATH=/home/dhruva/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/dhruva/.espressif/python_env/idf4.2_py2.7_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/dhruva/esp/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
