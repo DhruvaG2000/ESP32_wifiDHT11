@@ -1,16 +1,20 @@
+# wifiDHT11 
 ## Sample output
 temp= 31 *C 	<br />
 75 %Humidity
 
-
 ## Prerequisite: 
 
+`pip install esptool`
 It is a must that you have ESP-IDF installed and running on your computer. <br />
 For installation instructions follow  <br />
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#step-1-install-prerequisites  <br />
 and the steps that follow.  <br />
 
 **Avoid source compilation as it may cause errors** <br />
+
+## NOTE 
+This is the pre compiled branch and you can simply directly flash your ESP32 using ` esptool.py --port /dev/ttyUSB0 write_flash 0x1000 build/simple.bin ` on linux, and on windows just replace the `/dev/ttyUSB0` part with your COM port.
 
 ## install git and clone
 ```
